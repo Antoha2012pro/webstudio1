@@ -1,0 +1,47 @@
+:root {
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --title-color: #FFFFFF;
+    --desk-color: #757575;
+    --color: #212121;
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+p {
+    color: var(--desk-color);
+}
+
+.button {
+    color: var(--accent-color);
+}
+
+.shapka {
+    color: var(--title-color);
+}
+
+h2 {
+    color: var(--color);
+}
+
+h3 {
+    color: var(--color);
+}
+
+.email_color {
+    color: var(--accent-color);
+}
+
+.nav_color_studio {
+    color: var(--accent-color);
+}
+
+.header_a {
+    color: var(--color);
+}
+
+.footer_a {
+    color: var(--color);
+}
