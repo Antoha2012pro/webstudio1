@@ -28,7 +28,7 @@
     letter-spacing: 0.78px;
 }
 
-.header_item {
+.header_nav {
     color: var(--accent-color);
     font-family: Roboto;
     font-size: 14px;
@@ -42,16 +42,16 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
-.header_roster_item1 {
+.header_roster_item2 {
     color: var(--desk-color);
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
@@ -61,7 +61,7 @@
     font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px; /* 136.364% */
+    line-height: 1.36; /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -72,7 +72,7 @@
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px; /* 187.5% */
+    line-height: 1.88; /* 187.5% */
     letter-spacing: 0.96px;
     
     border-radius: 4px;
@@ -85,7 +85,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
@@ -95,7 +95,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -105,7 +105,7 @@
     font-family: Roboto;
     font-size: 36px;    
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.17;
     letter-spacing: 1.08px;
 }
 
@@ -121,7 +121,7 @@
     font-family: Roboto;
     font-size: 36px;    
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.17;
     letter-spacing: 1.08px;
 }
 
@@ -137,7 +137,7 @@
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.19;
     letter-spacing: 0.48px;
 }
 
@@ -147,7 +147,7 @@
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.19;
     letter-spacing: 0.48px;
 }
 
@@ -156,7 +156,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -165,6 +165,6 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
 }
