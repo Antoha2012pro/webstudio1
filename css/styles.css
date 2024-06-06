@@ -10,7 +10,9 @@
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
 
-.logo_span1 {
+/* Хеадер та футер */
+
+.logo-span1 {
     color: var(--accent-color);
     font-family: Raleway;
     font-size: 26px;
@@ -19,7 +21,7 @@
     letter-spacing: 0.78px;
 }
 
-.logo_span2 {
+.logo-span2 {
     color: var(--logo-color);
     font-family: Raleway;
     font-size: 26px;
@@ -28,7 +30,7 @@
     letter-spacing: 0.78px;
 }
 
-.header_nav {
+.header-nav {
     color: var(--accent-color);
     font-family: Roboto;
     font-size: 14px;
@@ -37,7 +39,7 @@
     letter-spacing: 0.28px;
 }
 
-.header_roster_item1 {
+.header-roster-item1 {
     color: var(--accent-color);
     font-family: Roboto;
     font-size: 14px;
@@ -46,7 +48,7 @@
     letter-spacing: 0.28px;
 }
 
-.header_roster_item2 {
+.header-roster-item2 {
     color: var(--desk-color);
     font-family: Roboto;
     font-size: 14px;
@@ -55,7 +57,27 @@
     letter-spacing: 0.28px;
 }
 
-.decision_title {
+.footer-addres {
+    color: var(--title-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+.footer-link {
+    color: var(--desk-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+/* Головна */
+
+.decision-title {
     color: var(--title-color);
     text-align: center;
     font-family: Roboto;
@@ -66,7 +88,7 @@
     text-transform: uppercase;
 }
 
-.decision_btn {
+.decision-btn {
     color: var(--title-color);
     text-align: center;
     font-family: Roboto;
@@ -80,7 +102,7 @@
     box-shadow: 0px 4px 4px 0px;
 }
 
-.we_title {
+.we-title {
     color: var(--color);
     font-family: Roboto;
     font-size: 14px;
@@ -90,7 +112,7 @@
     text-transform: uppercase;
 }
 
-.we_subtitle {
+.we-subtitle {
     color: var(--desk-color);
     font-family: Roboto;
     font-size: 14px;
@@ -99,7 +121,7 @@
     letter-spacing: 0.42px;
 }
 
-.make_title {
+.make-title {
     color: var(--color);
     text-align: center;
     font-family: Roboto;
@@ -109,13 +131,13 @@
     letter-spacing: 1.08px;
 }
 
-.make_img {
+.make-img {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
 }
 
-.team_title {
+.team-title {
     color: var(--color);
     text-align: center;
     font-family: Roboto;
@@ -125,13 +147,13 @@
     letter-spacing: 1.08px;
 }
 
-.team_img {
+.team-img {
     width: 270px;
     height: 260px;
     flex-shrink: 0;
 }
 
-.team_heading {
+.team-heading {
     color: var(--color);
     text-align: center;
     font-family: Roboto;
@@ -141,7 +163,7 @@
     letter-spacing: 0.48px;
 }
 
-.team_text {
+.team-text {
     color: #757575;
     text-align: center;
     font-family: Roboto;
@@ -151,20 +173,58 @@
     letter-spacing: 0.48px;
 }
 
-.footer_addres {
+/* Портфоліо */
+
+.btn-btn1 {
     color: var(--title-color);
+    text-align: center;
     font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71; /* 171.429% */
-    letter-spacing: 0.42px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #2196F3;
+
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12); 
 }
 
-.footer_link {
+.btn-btn {
+    color: var(--color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.goods-title {
+    color: var(--color);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+}
+
+.goods-caption {
     color: var(--desk-color);
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.71; /* 171.429% */
-    letter-spacing: 0.42px;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+}
+
+.goods-img {
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
+
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }

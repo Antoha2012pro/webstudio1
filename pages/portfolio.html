@@ -4,95 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
-    <header>
-      <a href="../index.html">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Студія</a></li>
-          <li><a href="../pages/portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
-        </ul>
+    <header class="header">
+      <a href="./index.html" class="logo"><span class="logo-span1">Web</span><span class="logo-span2">Studio</span></a>
+      <nav class="header_list">
+          <ul class="header_items">
+              <li class="header-item"><a href="../index.html" class="header-nav">Студія</a></li>
+              <li class="header-item"><a href="./portfolio.html" class="header-nav">Портфоліо</a></li>
+              <li class="header-item"><a href="#" class="header-nav">Контакти</a></li>
+          </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header_roster">
+          <li class="header-roster-item1"><a href="mailto:info@devstudio.com" class="header-email">info@devstudio.com</a></li>  
+          <li class="header-roster-item2"><a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a></li>
       </ul>
-    </header>
+  </header>
     <main>
         <!-- Секція кнопки -->
-      <section>
-        <h2 hidden>Кнопки</h2>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="btn">
+        <h2 hidden class="btn-title">Кнопки</h2>
+        <ul class="btn-items">
+          <li class="btn-item"><button type="button" class="btn-btn1">Усі</button></li>
+          <li class="btn-item"><button type="button" class="btn-btn">Веб-сайти</button></li>
+          <li class="btn-item"><button type="button" class="btn-btn">Додатки</button></li>
+          <li class="btn-item"><button type="button" class="btn-btn">Дизайн</button></li>
+          <li class="btn-item"><button type="button" class="btn-btn">Маркетинг</button></li>
         </ul>
       </section>
         <!-- Секція товари -->
-      <section>
-        <h2 hidden>Товари</h2>
-        <ul>
-          <li>
-            <img src="../img/techno_kryak.jpg" alt="Ноутбук" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+      <section class="goods">
+        <h2 hidden class="goods-title">Товари</h2>
+        <ul class="goods-items">
+          <li class="goods-">
+            <img src="../img/techno_kryak.jpg" alt="Ноутбук" class="goods-img"/>
+            <h2 class="goods-caption">Технокряк</h2>
+            <p class="goods-text">Веб-сайт</p>
           </li>
-          <li>
-            <img src="../img/basket_ball.jpg" alt="Баскетбол" />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+          <li class="goods-">
+            <img src="../img/basket_ball.jpg" alt="Баскетбол" class="goods-img"/>
+            <h2 class="goods-caption">Постер New Orlean vs Golden Star</h2>
+            <p class="goods-text">Дизайн</p>
           </li>
-          <li>
-            <img src="../img/image_restaurant.jpg" alt="Значок ресторану" />
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
+          <li class="goods-">
+            <img src="../img/image_restaurant.jpg" alt="Значок ресторану" class="goods-img"/>
+            <h2 class="goods-caption">Ресторан Seafood</h2>
+            <p class="goods-text">Додаток</p>
           </li>
-          <li>
-            <img src="../img/headphones.jpg" alt="Навушники" />
-            <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
+          <li class="goods-">
+            <img src="../img/headphones.jpg" alt="Навушники" class="goods-img"/>
+            <h2 class="goods-caption">Проєкт Prime</h2>
+            <p class="goods-text">Маркетинг</p>
           </li>
-          <li>
-            <img src="../img/boxes.jpg" alt="Коробки" />
-            <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
+          <li class="goods-">
+            <img src="../img/boxes.jpg" alt="Коробки" class="goods-img"/>
+            <h2 class="goods-caption">Проєкт Boxes</h2>
+            <p class="goods-text">Додаток</p>
           </li>
-          <li>
-            <img src="../img/monitor.jpg" alt="Монітор" />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+          <li class="goods-">
+            <img src="../img/monitor.jpg" alt="Монітор" class="goods-img" />
+            <h2 class="goods-caption">Inspiration has no Borders</h2>
+            <p class="goods-text">Веб-сайт</p>
           </li>
-          <li>
-            <img src="../img/book.jpg" alt="Книжка" />
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
+          <li class="goods-">
+            <img src="../img/book.jpg" alt="Книжка"  class="goods-img"/>
+            <h2 class="goods-caption">Видання Limited Edition</h2>
+            <p class="goods-text">Дизайн</p>
           </li>
-          <li>
-            <img src="../img/lab_el_tag.jpg" alt="Значок ресторану" />
-            <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
+          <li class="goods-">
+            <img src="../img/lab_el_tag.jpg" alt="Значок ресторану"  class="goods-img"/>
+            <h2 class="goods-caption">Проєкт LAB</h2>
+            <p class="goods-text">Маркетинг</p>
           </li>
-          <li>
-            <img src="../img/work_on_a_laptop.jpg" alt="Ноутбук" />
-            <h2>Growing Business</h2>
-            <p>Додаток</p>
+          <li class="goods-">
+            <img src="../img/work_on_a_laptop.jpg" alt="Ноутбук"  class="goods-img"/>
+            <h2 class="goods-caption">Growing Business</h2>
+            <p class="goods-text">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-        <a href="../index.html">WebStudio</a>
-        <address>
-        <ul>
-            <li><a href="https://www.google.com/maps/d/u/0/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17"    target="_blank">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>  
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-        </address>
-    </footer>
+    <footer class="footer">
+      <a href="./index.html" class="logo" class="footer-logo"><span class="logo-span1">Web</span><span class="logo-span2">Studio</span></a>
+      <address class="footer-addres">
+      <ul class="footer-items">
+          <li class="footer-item"><a href="https://www.google.com/maps/d/u/0/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17" target="_blank" class="footer-addres">м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li class="footer-item"><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>  
+          <li class="footer-item"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
+      </ul>
+      </address>
+  </footer>
   </body>
 </html>
