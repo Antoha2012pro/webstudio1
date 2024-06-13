@@ -10,15 +10,38 @@
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-p {
+ul {
+    list-style: none;
     margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    display: block;
+}
+
+.container {
+    outline: solid red;
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;   
 }
 
 /* Хеадер та футер */
+
+header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .logo-span1 {
     color: var(--accent-color);
@@ -84,6 +107,12 @@ p {
 }
 
 /* Головна */
+
+.decision {
+    background-color: var(--background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 .decision-title {
     color: var(--title-color);
