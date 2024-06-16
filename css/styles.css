@@ -30,7 +30,6 @@ img {
 }
 
 .container {
-    outline: solid red;
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;   
@@ -62,6 +61,15 @@ header {
 }
 
 .header-nav {
+    color: var(--color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.header-nav:hover {
     color: var(--accent-color);
     font-family: Roboto;
     font-size: 14px;
@@ -70,22 +78,21 @@ header {
     letter-spacing: 0.28px;
 }
 
-.header-roster-item1 {
-    color: var(--accent-color);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.28px;
-}
-
-.header-roster-item2 {
+.header-roster-item {
     color: var(--desk-color);
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+}
+
+.header-roster-item:hover {
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: var(--background-color);
 }
 
 .footer-addres {
@@ -212,7 +219,7 @@ header {
 
 /* Портфоліо */
 
-.btn-btn1 {
+.btn-btn:hover {
     color: var(--title-color);
     text-align: center;
     font-family: Roboto;
@@ -241,7 +248,7 @@ header {
 }
 
 .goods-title {
-    color: var(--color);
+    color: var(--desk-color);
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
@@ -250,7 +257,18 @@ header {
 }
 
 .goods-caption {
+    color: var(--color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88; /* 187.5% */
+    letter-spacing: 0.48px;
+}
+
+.goods-text {
     color: var(--desk-color);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
